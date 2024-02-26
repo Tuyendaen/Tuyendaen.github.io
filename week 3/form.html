@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Form</title>
+</head>
+    <body>
+        <div>
+        <style>
+            input, textarea, button {
+  font-size: 1.4rem;
+  padding: 10px;
+  border: none;
+}
+
+input, textarea {
+  background-color: #ecb8e5;
+}
+input, textarea, button {
+  width: 100%;
+}
+input, textarea, button {
+  margin-bottom: 15px;
+}
+h1 {
+  text-align: center;
+}
+@media(min-width: 48em) {
+  div {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+        </style>
+        <h1>Contact Us</h1>
+        <div><form method="post" action="/contact-form-data/">
+            <div><input name="readername" type="text" placeholder="Tong Thi Thanh Tuyen" required/>
+                <div> <input name="readeremail" type="email" placeholder="tongthithanhtuyenadt@mail.com" required/>
+                    <div> <textarea name="message" rows="5" cols="30" placeholder="Message" required></textarea>
+                        <div> <button type="submit">Send Message</button>
+          <div>
+        </form>
+      </body>
